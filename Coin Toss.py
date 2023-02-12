@@ -1,6 +1,6 @@
-import CoinClass as c
+import CoinClass as c #name of the python file (importing whole file)(don't put .py)
 
-
+#creating the object in this file
 # The main function.
 def main():
        # Create an object from the Coin class.
@@ -8,7 +8,7 @@ def main():
 
        # Display the side of the coin that is facing up.
        print('This side is up:', my_coin.get_sideup())    # notice you do not have to supply the argument/parameter
-
+            #calling the individual instance (object)
        # Toss the coin.
        print('I am going to toss the coin ten times:')
        for count in range(10):
